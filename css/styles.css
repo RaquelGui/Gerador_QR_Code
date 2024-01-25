@@ -40,7 +40,7 @@ body {
     font-size: 0.9rem;
 }
 
-#qr-form {
+.container #qr-form {
     margin: 20px 15px;
 }
 
@@ -50,6 +50,7 @@ body {
     height: 55px;
     border: none;
     border-radius: 5px;
+    outline: none;
     font-size: 0.9rem;
 }
 
@@ -68,11 +69,11 @@ body {
     transition: 0.4s;
 }
 
-#qr-form button :hover {
+#qr-form button:hover {
     opacity: 1;
 }
 
-#qr-code {
+.container #qr-code {
     display: flex;
     opacity: 0;
     border: 1px solid #ccc;
