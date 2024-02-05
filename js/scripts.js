@@ -31,7 +31,7 @@ qrCodeBtn.addEventListener("click", () => {
 qrCodeInput.addEventListener("keydown", (e) => {
     if (e.code === "Enter"){
         generateQrCode();
-        }
+    }
 });
 
 //Limpar área do QR Code //
